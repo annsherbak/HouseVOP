@@ -12,11 +12,14 @@
 <body>
     <header class="header">
         <div class="wrapper">
-            <div class="header__nav">
+            <div class="header__body">
                 <a href="#!" class="header__logo-link">
                     <img src="svg/header _logo.svg" alt="" class="header__logo-pic">
                 </a>
-                <nav>
+                <div class="header__burger">
+                    <span class="header__burger-span"></span>
+                </div>
+                <nav class="header__menu">
                     <ul class="header__nav">
                         <li class="header__list">
                             <a href="#!" class="header__link">О комплексе</a>
@@ -57,9 +60,9 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section class="specification">
             <div class="wrapper__full">
-                <div class="wrapper">
+                <div class="wrapper__cards">
                     <div class="section__namber-2">
                         II
                     </div>
@@ -95,7 +98,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section class="house">
             <div class="wrapper__full">
                 <div class="wrapper">
                     <div class="section__namber-3">
@@ -146,9 +149,9 @@
             </div>
             </div>
         </section>
-        <section>
+        <section class="viewings">
             <div class="wrapper__full">
-                <img src="img/show-pic.jpg" alt="" class="viewing__pic">
+                <img src="img/show-pic.jpg" alt="" class="viewings__pic">
                 <div class="wrapper">
                     <h2 class="viewing__title">
                         Хотите посмотреть?
@@ -163,7 +166,7 @@
                             </p>
                         </div>
                         <div class="viewing__form">
-                            <form action="">
+                            <form action="" class="form">
                                 <input type="text" class="form-contact" placeholder="Ваше имя">
                                 <input type="text" class="form-contact" placeholder="Ваш телефон">
                             </form>
@@ -221,13 +224,13 @@
                             </p>
                         </div>
                         <form class="form__1" action="">
-                            <input type="text" class="form-contact" placeholder="Ваше имя">
+                            <input type="text" class="form-contact problem__contact-1" placeholder="Ваше имя">
                         </form>
                         <form class="form__2" action="">
 
-                            <input type="text" class="form-contact" placeholder="Ваш телефон">
+                            <input type="text" class="form-contact problem__contact-2" placeholder="Ваш телефон">
                         </form>
-                        <button type="submit" class="viewing__button">Посмотреть район</button>
+                        <button type="submit" class="viewing__button problem__button">Посмотреть район</button>
                     </div>
                 </div>
 
@@ -308,6 +311,8 @@
         </div>
 
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../HouseVOP/js/script.js"></script>
 </body>
 
 </html>
